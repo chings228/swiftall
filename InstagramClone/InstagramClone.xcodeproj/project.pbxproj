@@ -11,6 +11,16 @@
 		4E18A8642A936A8000CB1621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8632A936A8000CB1621 /* ContentView.swift */; };
 		4E18A8662A936A8200CB1621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E18A8652A936A8200CB1621 /* Assets.xcassets */; };
 		4E18A8692A936A8200CB1621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E18A8682A936A8200CB1621 /* Preview Assets.xcassets */; };
+		4E18A8702A943CA000CB1621 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A86F2A943CA000CB1621 /* MainTabView.swift */; };
+		4E18A8732A943EE800CB1621 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8722A943EE800CB1621 /* ProfileView.swift */; };
+		4E18A8752A946CEB00CB1621 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8742A946CEB00CB1621 /* FeedView.swift */; };
+		4E18A8772A946D1E00CB1621 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8762A946D1E00CB1621 /* FeedCell.swift */; };
+		4E18A87A2A94940600CB1621 /* UserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8792A94940600CB1621 /* UserDataView.swift */; };
+		4E18A87C2A94948200CB1621 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A87B2A94948200CB1621 /* SearchView.swift */; };
+		4E18A87E2A949D5800CB1621 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A87D2A949D5800CB1621 /* LoginView.swift */; };
+		4E18A8802A94A9A400CB1621 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A87F2A94A9A400CB1621 /* AddEmailView.swift */; };
+		4E18A8822A94B4B700CB1621 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8812A94B4B700CB1621 /* IGTextFieldModifier.swift */; };
+		4E18A8842A94B67C00CB1621 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8832A94B67C00CB1621 /* IGButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		4E18A8632A936A8000CB1621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E18A8652A936A8200CB1621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E18A8682A936A8200CB1621 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E18A86F2A943CA000CB1621 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4E18A8722A943EE800CB1621 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4E18A8742A946CEB00CB1621 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		4E18A8762A946D1E00CB1621 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		4E18A8792A94940600CB1621 /* UserDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataView.swift; sourceTree = "<group>"; };
+		4E18A87B2A94948200CB1621 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4E18A87D2A949D5800CB1621 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4E18A87F2A94A9A400CB1621 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		4E18A8812A94B4B700CB1621 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		4E18A8832A94B67C00CB1621 /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 		4E18A8602A936A8000CB1621 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				4E18A8782A9493CD00CB1621 /* Component */,
+				4E18A8712A943EB200CB1621 /* View */,
 				4E18A8612A936A8000CB1621 /* InstagramCloneApp.swift */,
 				4E18A8632A936A8000CB1621 /* ContentView.swift */,
 				4E18A8652A936A8200CB1621 /* Assets.xcassets */,
@@ -65,6 +87,30 @@
 				4E18A8682A936A8200CB1621 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E18A8712A943EB200CB1621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E18A86F2A943CA000CB1621 /* MainTabView.swift */,
+				4E18A8722A943EE800CB1621 /* ProfileView.swift */,
+				4E18A8742A946CEB00CB1621 /* FeedView.swift */,
+				4E18A8762A946D1E00CB1621 /* FeedCell.swift */,
+				4E18A87B2A94948200CB1621 /* SearchView.swift */,
+				4E18A87D2A949D5800CB1621 /* LoginView.swift */,
+				4E18A87F2A94A9A400CB1621 /* AddEmailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E18A8782A9493CD00CB1621 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4E18A8792A94940600CB1621 /* UserDataView.swift */,
+				4E18A8812A94B4B700CB1621 /* IGTextFieldModifier.swift */,
+				4E18A8832A94B67C00CB1621 /* IGButtonModifier.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E18A8752A946CEB00CB1621 /* FeedView.swift in Sources */,
+				4E18A8732A943EE800CB1621 /* ProfileView.swift in Sources */,
 				4E18A8642A936A8000CB1621 /* ContentView.swift in Sources */,
+				4E18A87E2A949D5800CB1621 /* LoginView.swift in Sources */,
+				4E18A8842A94B67C00CB1621 /* IGButtonModifier.swift in Sources */,
 				4E18A8622A936A8000CB1621 /* InstagramCloneApp.swift in Sources */,
+				4E18A8802A94A9A400CB1621 /* AddEmailView.swift in Sources */,
+				4E18A87C2A94948200CB1621 /* SearchView.swift in Sources */,
+				4E18A8822A94B4B700CB1621 /* IGTextFieldModifier.swift in Sources */,
+				4E18A8702A943CA000CB1621 /* MainTabView.swift in Sources */,
+				4E18A8772A946D1E00CB1621 /* FeedCell.swift in Sources */,
+				4E18A87A2A94940600CB1621 /* UserDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
