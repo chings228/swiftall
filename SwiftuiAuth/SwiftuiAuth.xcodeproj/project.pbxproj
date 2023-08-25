@@ -7,82 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E18A8502A8F75F000CB1621 /* Appdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A84F2A8F75F000CB1621 /* Appdelegate.swift */; };
-		4E18A8522A930C9700CB1621 /* GridDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8512A930C9700CB1621 /* GridDemo.swift */; };
-		4E18A8542A933A6400CB1621 /* ToggleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8532A933A6400CB1621 /* ToggleDemo.swift */; };
-		4E18A8912A959AC300CB1621 /* NavigationStackDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8902A959AC300CB1621 /* NavigationStackDemo.swift */; };
-		4E18A8932A95F45100CB1621 /* NavigationStackDemo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8922A95F45100CB1621 /* NavigationStackDemo2.swift */; };
-		4E6E66FC2A8F47C8006D517C /* CocopodsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E66FB2A8F47C8006D517C /* CocopodsDemoApp.swift */; };
-		4E6E66FE2A8F47C8006D517C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E66FD2A8F47C8006D517C /* ContentView.swift */; };
-		4E6E67002A8F47C9006D517C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6E66FF2A8F47C9006D517C /* Assets.xcassets */; };
-		4E6E67032A8F47C9006D517C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6E67022A8F47C9006D517C /* Preview Assets.xcassets */; };
-		4E6E670A2A8F47F0006D517C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4E6E67092A8F47F0006D517C /* Podfile */; };
-		4E6E670D2A8F4E1C006D517C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4E6E670C2A8F4E1C006D517C /* SDWebImageSwiftUI */; };
+		4E18A8A12A98806D00CB1621 /* SwiftuiAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8A02A98806D00CB1621 /* SwiftuiAuthApp.swift */; };
+		4E18A8A32A98806D00CB1621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8A22A98806D00CB1621 /* ContentView.swift */; };
+		4E18A8A52A98806E00CB1621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E18A8A42A98806E00CB1621 /* Assets.xcassets */; };
+		4E18A8A82A98806E00CB1621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E18A8A72A98806E00CB1621 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E18A84F2A8F75F000CB1621 /* Appdelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appdelegate.swift; sourceTree = "<group>"; };
-		4E18A8512A930C9700CB1621 /* GridDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDemo.swift; sourceTree = "<group>"; };
-		4E18A8532A933A6400CB1621 /* ToggleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleDemo.swift; sourceTree = "<group>"; };
-		4E18A8902A959AC300CB1621 /* NavigationStackDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackDemo.swift; sourceTree = "<group>"; };
-		4E18A8922A95F45100CB1621 /* NavigationStackDemo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackDemo2.swift; sourceTree = "<group>"; };
-		4E6E66F82A8F47C8006D517C /* CocopodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocopodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E6E66FB2A8F47C8006D517C /* CocopodsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocopodsDemoApp.swift; sourceTree = "<group>"; };
-		4E6E66FD2A8F47C8006D517C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4E6E66FF2A8F47C9006D517C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E6E67022A8F47C9006D517C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4E6E67092A8F47F0006D517C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		4E18A89D2A98806D00CB1621 /* SwiftuiAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftuiAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E18A8A02A98806D00CB1621 /* SwiftuiAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftuiAuthApp.swift; sourceTree = "<group>"; };
+		4E18A8A22A98806D00CB1621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E18A8A42A98806E00CB1621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E18A8A72A98806E00CB1621 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E6E66F52A8F47C8006D517C /* Frameworks */ = {
+		4E18A89A2A98806D00CB1621 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6E670D2A8F4E1C006D517C /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E6E66EF2A8F47C8006D517C = {
+		4E18A8942A98806D00CB1621 = {
 			isa = PBXGroup;
 			children = (
-				4E6E67092A8F47F0006D517C /* Podfile */,
-				4E6E66FA2A8F47C8006D517C /* CocopodsDemo */,
-				4E6E66F92A8F47C8006D517C /* Products */,
+				4E18A89F2A98806D00CB1621 /* SwiftuiAuth */,
+				4E18A89E2A98806D00CB1621 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E6E66F92A8F47C8006D517C /* Products */ = {
+		4E18A89E2A98806D00CB1621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E6E66F82A8F47C8006D517C /* CocopodsDemo.app */,
+				4E18A89D2A98806D00CB1621 /* SwiftuiAuth.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E6E66FA2A8F47C8006D517C /* CocopodsDemo */ = {
+		4E18A89F2A98806D00CB1621 /* SwiftuiAuth */ = {
 			isa = PBXGroup;
 			children = (
-				4E6E66FB2A8F47C8006D517C /* CocopodsDemoApp.swift */,
-				4E6E66FD2A8F47C8006D517C /* ContentView.swift */,
-				4E6E66FF2A8F47C9006D517C /* Assets.xcassets */,
-				4E6E67012A8F47C9006D517C /* Preview Content */,
-				4E18A84F2A8F75F000CB1621 /* Appdelegate.swift */,
-				4E18A8512A930C9700CB1621 /* GridDemo.swift */,
-				4E18A8532A933A6400CB1621 /* ToggleDemo.swift */,
-				4E18A8902A959AC300CB1621 /* NavigationStackDemo.swift */,
-				4E18A8922A95F45100CB1621 /* NavigationStackDemo2.swift */,
+				4E18A8A02A98806D00CB1621 /* SwiftuiAuthApp.swift */,
+				4E18A8A22A98806D00CB1621 /* ContentView.swift */,
+				4E18A8A42A98806E00CB1621 /* Assets.xcassets */,
+				4E18A8A62A98806E00CB1621 /* Preview Content */,
 			);
-			path = CocopodsDemo;
+			path = SwiftuiAuth;
 			sourceTree = "<group>";
 		};
-		4E6E67012A8F47C9006D517C /* Preview Content */ = {
+		4E18A8A62A98806E00CB1621 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4E6E67022A8F47C9006D517C /* Preview Assets.xcassets */,
+				4E18A8A72A98806E00CB1621 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -90,42 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E6E66F72A8F47C8006D517C /* CocopodsDemo */ = {
+		4E18A89C2A98806D00CB1621 /* SwiftuiAuth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E6E67062A8F47C9006D517C /* Build configuration list for PBXNativeTarget "CocopodsDemo" */;
+			buildConfigurationList = 4E18A8AB2A98806E00CB1621 /* Build configuration list for PBXNativeTarget "SwiftuiAuth" */;
 			buildPhases = (
-				4E6E66F42A8F47C8006D517C /* Sources */,
-				4E6E66F52A8F47C8006D517C /* Frameworks */,
-				4E6E66F62A8F47C8006D517C /* Resources */,
+				4E18A8992A98806D00CB1621 /* Sources */,
+				4E18A89A2A98806D00CB1621 /* Frameworks */,
+				4E18A89B2A98806D00CB1621 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CocopodsDemo;
-			packageProductDependencies = (
-				4E6E670C2A8F4E1C006D517C /* SDWebImageSwiftUI */,
-			);
-			productName = CocopodsDemo;
-			productReference = 4E6E66F82A8F47C8006D517C /* CocopodsDemo.app */;
+			name = SwiftuiAuth;
+			productName = SwiftuiAuth;
+			productReference = 4E18A89D2A98806D00CB1621 /* SwiftuiAuth.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E6E66F02A8F47C8006D517C /* Project object */ = {
+		4E18A8952A98806D00CB1621 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					4E6E66F72A8F47C8006D517C = {
+					4E18A89C2A98806D00CB1621 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 4E6E66F32A8F47C8006D517C /* Build configuration list for PBXProject "CocopodsDemo" */;
+			buildConfigurationList = 4E18A8982A98806D00CB1621 /* Build configuration list for PBXProject "SwiftuiAuth" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,51 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 4E6E66EF2A8F47C8006D517C;
-			packageReferences = (
-				4E6E670B2A8F4E1C006D517C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-			);
-			productRefGroup = 4E6E66F92A8F47C8006D517C /* Products */;
+			mainGroup = 4E18A8942A98806D00CB1621;
+			productRefGroup = 4E18A89E2A98806D00CB1621 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E6E66F72A8F47C8006D517C /* CocopodsDemo */,
+				4E18A89C2A98806D00CB1621 /* SwiftuiAuth */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E6E66F62A8F47C8006D517C /* Resources */ = {
+		4E18A89B2A98806D00CB1621 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6E670A2A8F47F0006D517C /* Podfile in Resources */,
-				4E6E67032A8F47C9006D517C /* Preview Assets.xcassets in Resources */,
-				4E6E67002A8F47C9006D517C /* Assets.xcassets in Resources */,
+				4E18A8A82A98806E00CB1621 /* Preview Assets.xcassets in Resources */,
+				4E18A8A52A98806E00CB1621 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E6E66F42A8F47C8006D517C /* Sources */ = {
+		4E18A8992A98806D00CB1621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E18A8542A933A6400CB1621 /* ToggleDemo.swift in Sources */,
-				4E18A8522A930C9700CB1621 /* GridDemo.swift in Sources */,
-				4E6E66FE2A8F47C8006D517C /* ContentView.swift in Sources */,
-				4E18A8912A959AC300CB1621 /* NavigationStackDemo.swift in Sources */,
-				4E18A8502A8F75F000CB1621 /* Appdelegate.swift in Sources */,
-				4E6E66FC2A8F47C8006D517C /* CocopodsDemoApp.swift in Sources */,
-				4E18A8932A95F45100CB1621 /* NavigationStackDemo2.swift in Sources */,
+				4E18A8A32A98806D00CB1621 /* ContentView.swift in Sources */,
+				4E18A8A12A98806D00CB1621 /* SwiftuiAuthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4E6E67042A8F47C9006D517C /* Debug */ = {
+		4E18A8A92A98806E00CB1621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		4E6E67052A8F47C9006D517C /* Release */ = {
+		4E18A8AA2A98806E00CB1621 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,14 +259,14 @@
 			};
 			name = Release;
 		};
-		4E6E67072A8F47C9006D517C /* Debug */ = {
+		4E18A8AC2A98806E00CB1621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CocopodsDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftuiAuth/Preview Content\"";
 				DEVELOPMENT_TEAM = L6PPAXJJ8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.insutech.CocopodsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insutech.SwiftuiAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		4E6E67082A8F47C9006D517C /* Release */ = {
+		4E18A8AD2A98806E00CB1621 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CocopodsDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftuiAuth/Preview Content\"";
 				DEVELOPMENT_TEAM = L6PPAXJJ8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -341,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.insutech.CocopodsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insutech.SwiftuiAuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,44 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E6E66F32A8F47C8006D517C /* Build configuration list for PBXProject "CocopodsDemo" */ = {
+		4E18A8982A98806D00CB1621 /* Build configuration list for PBXProject "SwiftuiAuth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E6E67042A8F47C9006D517C /* Debug */,
-				4E6E67052A8F47C9006D517C /* Release */,
+				4E18A8A92A98806E00CB1621 /* Debug */,
+				4E18A8AA2A98806E00CB1621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E6E67062A8F47C9006D517C /* Build configuration list for PBXNativeTarget "CocopodsDemo" */ = {
+		4E18A8AB2A98806E00CB1621 /* Build configuration list for PBXNativeTarget "SwiftuiAuth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E6E67072A8F47C9006D517C /* Debug */,
-				4E6E67082A8F47C9006D517C /* Release */,
+				4E18A8AC2A98806E00CB1621 /* Debug */,
+				4E18A8AD2A98806E00CB1621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4E6E670B2A8F4E1C006D517C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		4E6E670C2A8F4E1C006D517C /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4E6E670B2A8F4E1C006D517C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 4E6E66F02A8F47C8006D517C /* Project object */;
+	rootObject = 4E18A8952A98806D00CB1621 /* Project object */;
 }

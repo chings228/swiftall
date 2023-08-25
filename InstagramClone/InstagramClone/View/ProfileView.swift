@@ -24,7 +24,7 @@ struct ProfileView: View {
     var body: some View {
         
 
-        NavigationStack{
+       // NavigationStack{
             ScrollView{
                 
                 VStack{
@@ -133,7 +133,7 @@ struct ProfileView: View {
             }
         }
        
-    }
+    //}
 }
 
 

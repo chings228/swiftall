@@ -21,6 +21,10 @@
 		4E18A8802A94A9A400CB1621 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A87F2A94A9A400CB1621 /* AddEmailView.swift */; };
 		4E18A8822A94B4B700CB1621 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8812A94B4B700CB1621 /* IGTextFieldModifier.swift */; };
 		4E18A8842A94B67C00CB1621 /* IGButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8832A94B67C00CB1621 /* IGButtonModifier.swift */; };
+		4E18A8862A94B7EA00CB1621 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8852A94B7EA00CB1621 /* CreateUsernameView.swift */; };
+		4E18A8882A94BB1C00CB1621 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8872A94BB1C00CB1621 /* CreatePasswordView.swift */; };
+		4E18A88A2A94BC0200CB1621 /* CompleteRegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A8892A94BC0200CB1621 /* CompleteRegView.swift */; };
+		4E18A88D2A9590F200CB1621 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E18A88C2A9590F200CB1621 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		4E18A87F2A94A9A400CB1621 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 		4E18A8812A94B4B700CB1621 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 		4E18A8832A94B67C00CB1621 /* IGButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGButtonModifier.swift; sourceTree = "<group>"; };
+		4E18A8852A94B7EA00CB1621 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		4E18A8872A94BB1C00CB1621 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		4E18A8892A94BC0200CB1621 /* CompleteRegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRegView.swift; sourceTree = "<group>"; };
+		4E18A88C2A9590F200CB1621 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 		4E18A8602A936A8000CB1621 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				4E18A88B2A9590E400CB1621 /* Model */,
 				4E18A8782A9493CD00CB1621 /* Component */,
 				4E18A8712A943EB200CB1621 /* View */,
 				4E18A8612A936A8000CB1621 /* InstagramCloneApp.swift */,
@@ -96,9 +105,12 @@
 				4E18A8722A943EE800CB1621 /* ProfileView.swift */,
 				4E18A8742A946CEB00CB1621 /* FeedView.swift */,
 				4E18A8762A946D1E00CB1621 /* FeedCell.swift */,
+				4E18A8852A94B7EA00CB1621 /* CreateUsernameView.swift */,
 				4E18A87B2A94948200CB1621 /* SearchView.swift */,
 				4E18A87D2A949D5800CB1621 /* LoginView.swift */,
 				4E18A87F2A94A9A400CB1621 /* AddEmailView.swift */,
+				4E18A8872A94BB1C00CB1621 /* CreatePasswordView.swift */,
+				4E18A8892A94BC0200CB1621 /* CompleteRegView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +123,14 @@
 				4E18A8832A94B67C00CB1621 /* IGButtonModifier.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		4E18A88B2A9590E400CB1621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E18A88C2A9590F200CB1621 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E18A88A2A94BC0200CB1621 /* CompleteRegView.swift in Sources */,
 				4E18A8752A946CEB00CB1621 /* FeedView.swift in Sources */,
+				4E18A8882A94BB1C00CB1621 /* CreatePasswordView.swift in Sources */,
+				4E18A8862A94B7EA00CB1621 /* CreateUsernameView.swift in Sources */,
+				4E18A88D2A9590F200CB1621 /* User.swift in Sources */,
 				4E18A8732A943EE800CB1621 /* ProfileView.swift in Sources */,
 				4E18A8642A936A8000CB1621 /* ContentView.swift in Sources */,
 				4E18A87E2A949D5800CB1621 /* LoginView.swift in Sources */,

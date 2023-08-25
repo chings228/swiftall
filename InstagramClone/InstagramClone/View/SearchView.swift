@@ -18,34 +18,50 @@ struct SearchView: View {
                 
                 LazyVStack(spacing:12){
                     
-                    ForEach(0...15, id:\.self){user in
+                    ForEach(User.MOCK_USERS){user in
                         
-                        HStack {
-                            Image("spider-2")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 40,height: 40)
-                            .clipShape(Circle())
+                        NavigationLink(value:user){
                             
                             
-                            VStack(alignment: .leading){
-                                Text("batman")
-                                   
-                                    .fontWeight(.semibold)
+                            HStack {
+                                Image(user.profileImageUrl ?? "")
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width: 40,height: 40)
+                                .clipShape(Circle())
+                                
+                                
+                                VStack(alignment: .leading){
+                                    Text(user.username)
+                                       
+                                        .fontWeight(.semibold)
 
-                                Text("Bruce Wayne")
+                                    Text(user.fullname ?? "")
 
+                                }
+                                .font(.footnote)
+                               
+                                
+                                Spacer()
                             }
-                            .font(.footnote)
-                           
+                            .padding(.horizontal)
+                            .foregroundColor(.black)
+                          
                             
-                            Spacer()
                         }
-                        .padding(.horizontal)
+                        
+                        
+                        
+                        
+
                         
                        
                         
                     }
+                    
+                    .navigationDestination(for: User.self, destination: { user in
+                        ProfileView()
+                    })
                     .searchable(text:$searchText,prompt: "Search...")
                     .padding(.top,8)
                     
