@@ -1,5 +1,5 @@
 //
-//  RegistrationView.swift
+//  SettingRowView.swift
 //  SwiftuiAuth
 //
 //  Created by man ching chan on 25/8/2023.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct RegistrationView: View {
+struct SettingRowView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct RegistrationView_Previews: PreviewProvider {
+struct SettingRowView_Previews: PreviewProvider {
     static var previews: some View {
-        RegistrationView()
+        SettingRowView()
     }
 }
